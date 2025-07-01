@@ -18,12 +18,12 @@ RockyBot is a user-friendly news research tool designed for effortless informati
 1.Clone this repository to your local machine using:
 
 ```bash
-  git clone https://github.com/codebasics/langchain.git
+  git clone https://github.com/MadihaTech/llm-news-research-project.git
 ```
 2.Navigate to the project directory:
 
 ```bash
-  cd 2_news_research_tool_project
+  cd llm-news-research-project
 ```
 3. Install the required dependencies using pip:
 
@@ -54,15 +54,15 @@ streamlit run main.py
 - The embeddings will be stored and indexed using FAISS, enhancing retrieval speed.
 
 - The FAISS index will be saved in a local file path in pickle format for future use.
+  
 - One can now ask a question and get the answer based on those news articles
-- In video tutorial, we used following news articles
-  - https://www.moneycontrol.com/news/business/tata-motors-mahindra-gain-certificates-for-production-linked-payouts-11281691.html
-  - https://www.moneycontrol.com/news/business/tata-motors-launches-punch-icng-price-starts-at-rs-7-1-lakh-11098751.html
-  - https://www.moneycontrol.com/news/business/stocks/buy-tata-motors-target-of-rs-743-kr-choksey-11080811.html
 
 ## Project Structure
 
 - main.py: The main Streamlit application script.
 - requirements.txt: A list of required Python packages for the project.
-- faiss_store_openai.pkl: A pickle file to store the FAISS index.
+- faiss_store_openai.pkl: This file is auto-generated when you process URLs. It stores the FAISS index for fast retrieval and is not included in the repository. You don't need to create or edit it manually.
 - .env: Configuration file for storing your OpenAI API key.
+
+## License
+This project is licensed under the MIT License.
